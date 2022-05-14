@@ -1,3 +1,3 @@
-module github.com/zerosoul13/post-office/v0
+module github.com/zerosoul13/post-office
 
 go 1.18
