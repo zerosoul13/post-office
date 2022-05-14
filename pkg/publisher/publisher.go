@@ -25,7 +25,7 @@ func (p *EventPublisher) Publish() error {
 	return nil
 }
 
-func NewPublisher(publish func(string) error) Publisher {
+func NewPublisher() Publisher {
 	e := EventPublisher{}
 	return &e
 }
